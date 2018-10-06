@@ -22,7 +22,6 @@ videoCapture.set(4, 480)
 
 while True:
 
-    #image = cv2.imread(imagePath)
     # Read the frame:
     ret, frame = videoCapture.read()
     #frame = rescale_frame(frame)
